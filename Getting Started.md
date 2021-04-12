@@ -2,8 +2,11 @@
 
 <!-- TOC -->
 
-- [Installations](#installations)
-- [GitHub clone or: get this to run on your own computer](#github-clone-or-get-this-to-run-on-your-own-computer)
+- [Getting set up](#getting-set-up)
+    - [**Step 1: Install python**](#step-1-install-python)
+    - [**Step 2: Install JupyterLab**](#step-2-install-jupyterlab)
+    - [***Step 3: Open Jupyter***](#step-3-open-jupyter)
+    - [**Step 4: Make a local copy of the data and notebooks for this exercise**](#step-4-make-a-local-copy-of-the-data-and-notebooks-for-this-exercise)
 
 <!-- /TOC -->
 ## **Step 1: Install python**
@@ -33,11 +36,11 @@ Hold on to your hats because we are going to write a command in the command prom
 - type 'cmd' (short for 'command' or 'command prompt')
 - depending on the software installed on your computer, you will see a few different terminals. Let's open the one associated with the python software we just installed (the Anaconda Prompt for Miniconda)
 
-![image](cmd.png)
+![image](Images/cmd.png)
 
 The command prompt will open. It's a bit intimidating for non-programmers (me!). 
 
-![image](miniconda_prompt.png)
+![image](Images/miniconda_prompt.png)
 
 Simple use your keyboard shortcuts to copy and paste this command into your window (ctr+c/ ctr+v; or alternatively you can type it out, paying careful attention to spelling and spaces)
 
@@ -63,7 +66,7 @@ Press ENTER
 Jupyter Lab will open in your browser. 
 Be sure to leave the Comannd prompt running in the background. It is needed to store all the data your will create as you run Jupyter. 
 
-![image](jupyterlab.png)
+![image](Images/jupyterlab.png)
 
 
 ## **Step 4: Make a local copy of the data and notebooks for this exercise**
@@ -74,17 +77,17 @@ To clone this repository, navigate to the [main site page](https://github.com/La
 
 Click the green 'code' button. You will see a URL (make sure 'HTTPS' is underlined as per the figure below). Copy the URL. 
 
-![image](clone_gitrepo.png)
+![image](Images/clone_gitrepo.png)
 
 Open the internet browser tab in which you are running Jupyter Lab. 
 
 Create a new terminal window by selecting the '+' to create a new 'launcher', and then cliking 'terminal' as shown in the figure. 
 
-![image](new_terminal.png)
+![image](Images/new_terminal.png)
 
 Now you have a command prompt open in Jupyter Lab
 
-![image](jupyter_cmd.png)
+![image](Images/jupyter_cmd.png)
 
 By default, Jupyter will start saving data into your 'user' directory on your computer. You can create folders within the user directory in the normal way. If you want to store this project in a subfolder, create one now. Otherwise, you can just download the data directly into its own folder which will take the name of the github repository (UPD5001_TransportLanduse_model)
 
