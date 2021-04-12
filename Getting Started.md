@@ -99,15 +99,21 @@ In the terminal window within Jupyter Lab, type the following (replace 'UPD5001'
 cd UPD5001
 ```
 
-All of a sudden, the text that prec
+All of a sudden, the text that precedes your cursor has changed to display the name of the folder you are going to clone the git repository into. 
 
-Paste the URL from github. Here it is again:
+![image](Images/navigate_to_folder.png)
+
+Now paste the URL from github. Here it is again:
 
 ```sh
 https://github.com/Laura-k-a/UPD5001_TransportLanduse_model.git
 ```
 
-Press ENTER
+Now the files contained in this repository will appear in your folder, and we are *almost* ready to proceed to run the transport and land use demo...
+
+## **Step 5: Install python modules**
+
+
 
 
 
